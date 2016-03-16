@@ -1,7 +1,7 @@
 {
   "name": "open-event-webapp-ember",
-  "version": "0.0.0",
-  "description": "Small description for open-event-webapp-ember goes here",
+  "version": "0.0.1",
+  "description": "Webapp for Open Event, written in Ember",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -16,8 +16,8 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
-  "license": "MIT",
+  "author": "Arnav Gupta, FOSSASIA",
+  "license": "GPLv3",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
     "ember-ajax": "0.7.1",

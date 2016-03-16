@@ -1,0 +1,10 @@
+<h3>Speakers</h3>
+
+<div>
+{{#each model as |speaker|}}
+<ul>
+<li> {{speaker.id}} -- {{speaker.name}} </li>
+</ul>
+{{/each}}
+</div>
+{{outlet}}

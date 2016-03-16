@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'open-event-webapp-ember',
+    podModulePrefix: 'open-event-webapp-ember/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
