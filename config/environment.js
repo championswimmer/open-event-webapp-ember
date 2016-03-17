@@ -41,6 +41,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.baseURL = '/open-event-webapp-ember/'
 
   }
 

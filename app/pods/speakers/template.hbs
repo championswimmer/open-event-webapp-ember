@@ -1,7 +1,7 @@
 <h3>Speakers</h3>
 
 <div>
-{{#each model as |speaker|}}
+{{#each model key="id" as |speaker|}}
 <ul>
 <li> {{speaker.id}} -- {{speaker.name}} </li>
 </ul>
