@@ -1,2 +1,14 @@
-Sessions
+<h3>Sessions</h3>
+
+<div>
+{{#each model as |session|}}
+{{session.title}} -- {{session.type}}
+<ul>
+  {{#each session.speakers as |speaker|}}
+  <li>{{speaker.name}}</li>
+  {{/each}}
+</ul>
+{{/each}}
+</div>
+
 {{outlet}}
